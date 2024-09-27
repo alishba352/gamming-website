@@ -1,0 +1,133 @@
+body{
+    background:url(gaming-companies.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+.main{
+    color: #fff;
+    margin-top: 50px;
+    font-size: 50px;
+    align-items: center;
+    margin-inline: 250px;
+}
+h3{
+    color: #fff;
+    margin-top: 50px;
+    font-size: 20px;
+    align-items: center;
+    margin-inline: 340px;
+}
+.form-box{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    width: 512px;
+    height: 120px;
+}
+.register-container{
+    width: 400px;
+    
+}
+
+.top span a{
+    font-weight: 500;
+    color: black;
+}
+.two-forms{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.input-fields{
+    font-size: 15px;
+    background: rgba(225, 225, 225, 0.2);
+    color: #fff;
+    height: 50px;
+    width: 100%;
+    margin-left: 190px;
+ 
+    padding: 0 10px 0 45px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+}
+.input-fields:hover, .input-fields:focus{
+    background: rgba(225, 225, 225, 0.25);
+}
+::-webkit-input-placeholder{
+    color:black;
+}
+.input-box i{
+    position: relative;
+    top: -35px;
+    left: 17px;
+    margin-left: 190px;
+    color: black;
+}
+.submit{
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    height: 45px;
+    width: 100%;
+    margin-left: 270px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background: rgba(225, 225, 225, 0.7);
+    cursor: pointer;
+
+}
+.submit:hover{
+    background: rgba(225, 225, 225, 0.5);
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+@media (max-width: 500px){
+    body{
+        background-color: #050e2d;
+        background-image: none;
+    }
+    .main{
+        width: 300px;
+        margin-left: 50px;
+        font-size: 35px;
+        color: #fff;
+    }
+    h3{
+        width: 300px;
+        margin-left: 80px;
+        color: #fff;
+    }
+    .input-fields{
+        margin-left: 20px;
+        width: 300px;
+        color: #fff;
+    }
+    .input-box i{
+        margin-left: 20px;
+        color: #fff;
+    }
+    .submit{
+        margin-left: 130px;
+        width: 100px;
+
+    }
+    .main{
+        margin-top: 10px;
+    }
+    .top span{
+    margin-left: 20px;
+    margin-top: -140px;
+    color: #fff;
+    }
+    .top span a{
+        color: #fff;
+    }
+    ::-webkit-input-placeholder{
+        color: #fff;
+    }
+}
+

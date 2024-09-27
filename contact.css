@@ -1,0 +1,90 @@
+body{
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/64aceb40d0ea591fa2edfb01/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds);
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+
+
+
+/* footer */
+
+
+.gaming-footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer-links a,
+.footer-social a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+    color: #050e2d; }
+
+
+.footer-bottom {
+    border-top : 1px solid #333;
+    padding-top : 10px ;
+}
+ 
+
